@@ -50,6 +50,7 @@ document.querySelector('.check').addEventListener('click', function () {
       document.querySelector('.message').textContent = 'You lost!';
       document.querySelector('body').style.backgroundColor = '#FF5768';
       document.querySelector('.number').textContent = myNumber;
+      document.querySelector('.number').style.width = '100%';
       // Disable input field and check button
       document.querySelector('.guess').disabled = true;
       document.querySelector('.check').disabled = true;
